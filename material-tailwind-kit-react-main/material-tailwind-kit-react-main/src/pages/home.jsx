@@ -29,12 +29,10 @@ export function Home() {
                 color="white"
                 className="mb-6 font-black"
               >
-                Your story starts with us.
+                Sientete Seguro Con ConfiApp
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                This is a simple example of a Landing Page you can build using
-                Material Tailwind. It features multiple components based on the
-                Tailwind CSS and Material Design by Google.
+                Cada vez llegamos a muchas mas personas brindandoles nuestro servicio
               </Typography>
             </div>
           </div>
@@ -110,11 +108,10 @@ export function Home() {
       </section>
       <section className="px-4 pt-20 pb-48">
         <div className="container mx-auto">
-          <PageTitle section="Our Team" heading="Here are our heroes">
-            According to the National Oceanic and Atmospheric Administration,
-            Ted, Scambos, NSIDClead scentist, puts the potentially record
-            maximum.
+          <PageTitle section="PADRES/TUTORES   REGISTRADOS" heading="..">
+          Administrador tienes la opcion de aceptar o rechazar padres/tutores registrados, aceptando que los padres/tutores ingresaron todos sus datos correctamente.
           </PageTitle>
+
           <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
             {teamData.map(({ img, name, position, socials }) => (
               <TeamCard

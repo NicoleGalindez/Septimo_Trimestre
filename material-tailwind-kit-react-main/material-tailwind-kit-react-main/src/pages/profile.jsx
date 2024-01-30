@@ -28,9 +28,9 @@ export function Profile() {
                 </div>
                 <div className="flex flex-col mt-2">
                   <Typography variant="h4" color="blue-gray">
-                    Jenna Stones
+                    Maria Dorado
                   </Typography>
-                  <Typography variant="paragraph" color="gray" className="!mt-0 font-normal">jena@mail.com</Typography>
+                  <Typography variant="paragraph" color="gray" className="!mt-0 font-normal">maria9@mail.com</Typography>
                 </div>
               </div>
 
@@ -43,13 +43,15 @@ export function Profile() {
                       color="blue-gray"
                       className="font-bold uppercase"
                     >
-                      22
+                      Menor (es) a Cargo:
                     </Typography>
                     <Typography
                       variant="small"
                       className="font-normal text-blue-gray-500"
                     >
-                      Friends
+                      Angel David Dorado (12 años)
+                      <p>Manuel Sangiago Dorado(10 años)</p>
+
                     </Typography>
                   </div>
                   <div className="mr-4 p-3 text-center">
@@ -90,19 +92,19 @@ export function Profile() {
               <div className="flex items-center gap-2">
                 <MapPinIcon className="-mt-px h-4 w-4 text-blue-gray-500" />
                 <Typography className="font-medium text-blue-gray-500">
-                  Los Angeles, California
+                  cra 22b # 9a-39 Retiro bajo
                 </Typography>
               </div>
               <div className="flex items-center gap-2">
                 <BriefcaseIcon className="-mt-px h-4 w-4 text-blue-gray-500" />
                 <Typography className="font-medium text-blue-gray-500">
-                  Solution Manager - Creative Tim Officer
+                  Madre(tutor a cargo)
                 </Typography>
               </div>
               <div className="flex items-center gap-2">
                 <BuildingLibraryIcon className="-mt-px h-4 w-4 text-blue-gray-500" />
                 <Typography className="font-medium text-blue-gray-500">
-                  University of Computer Science
+                  Tel: 3207876543
                 </Typography>
               </div>
             </div>
@@ -127,7 +129,7 @@ export function Profile() {
         <Footer />
       </div>
 
-    </>
+    </> 
   );
 }
 
