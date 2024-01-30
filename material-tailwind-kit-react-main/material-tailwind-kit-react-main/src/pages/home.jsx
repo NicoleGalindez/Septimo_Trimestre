@@ -63,17 +63,14 @@ export function Home() {
                 className="mb-3 font-bold"
                 color="blue-gray"
               >
-                Working with us is a pleasure
+                Como trabaja el equipo de ConfiApp
+                <p>Cada integrante de nuestro equipo apota un granito de arena para:</p>
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Don't let your uses guess by attaching tooltips and popoves to
-                any element. Just make sure you enable them first via
-                JavaScript.
+              Brindamos seguridad y confianza en todo momento a los tutores y el menor a cargo.
                 <br />
                 <br />
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript.
+                Hemos sido condecorados como uno d elos mejores aplicativos sobre seguridad juvenil e infantil.
               </Typography>
               <Button variant="filled">read more</Button>
             </div>
@@ -87,18 +84,16 @@ export function Home() {
                   />
                 </CardHeader>
                 <CardBody>
-                  <Typography variant="small" color="blue-gray" className="font-normal">Enterprise</Typography>
+                  <Typography variant="small" color="blue-gray" className="font-normal"></Typography>
                   <Typography
                     variant="h5"
                     color="blue-gray"
                     className="mb-3 mt-2 font-bold"
                   >
-                    Top Notch Services
+                    Nosotros:
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens.
+                  Asi es que logramos llenarff de tranqulidad a cada uno de las personas que integran esta familia
                   </Typography>
                 </CardBody>
               </Card>
