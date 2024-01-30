@@ -35,7 +35,7 @@ export function Profile() {
               </div>
 
               <div className="mt-10 mb-10 flex lg:flex-col justify-between items-center lg:justify-end lg:mb-0 lg:px-4 flex-wrap lg:-mt-5">
-                <Button className="bg-gray-900 w-fit lg:ml-auto">Conntect</Button>
+                <Button className="bg-gray-900 w-fit lg:ml-auto">Agregar un menor</Button>
                 <div className="flex justify-start py-4 pt-8 lg:pt-4">
                   <div className="mr-4 p-3 text-center">
                     <Typography
@@ -55,6 +55,21 @@ export function Profile() {
                     </Typography>
                   </div>
                   <div className="mr-4 p-3 text-center">
+                    {/* <Typography
+                      variant="lead"
+                      color="blue-gray"
+                      className="font-bold uppercase"
+                    >
+                      10
+                    </Typography>
+                    <Typography
+                      variant="small"
+                      className="font-normal text-blue-gray-500"
+                    >
+                      Rutas realizadas
+                    </Typography> */}
+                  </div>
+                  <div className="p-3 text-center lg:mr-4">
                     <Typography
                       variant="lead"
                       color="blue-gray"
@@ -66,22 +81,7 @@ export function Profile() {
                       variant="small"
                       className="font-normal text-blue-gray-500"
                     >
-                      Photos
-                    </Typography>
-                  </div>
-                  <div className="p-3 text-center lg:mr-4">
-                    <Typography
-                      variant="lead"
-                      color="blue-gray"
-                      className="font-bold uppercase"
-                    >
-                      89
-                    </Typography>
-                    <Typography
-                      variant="small"
-                      className="font-normal text-blue-gray-500"
-                    >
-                      Comments
+                      Rutas realizadas
                     </Typography>
                   </div>
                 </div>
