@@ -111,7 +111,6 @@ export function Home() {
           <PageTitle section="PADRES/TUTORES   REGISTRADOS" heading="..">
           Administrador tienes la opcion de aceptar o rechazar padres/tutores registrados, aceptando que los padres/tutores ingresaron todos sus datos correctamente.
           </PageTitle>
-
           <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
             {teamData.map(({ img, name, position, socials }) => (
               <TeamCard
