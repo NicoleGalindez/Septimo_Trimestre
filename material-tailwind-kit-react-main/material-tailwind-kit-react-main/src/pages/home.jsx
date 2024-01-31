@@ -63,14 +63,18 @@ export function Home() {
                 className="mb-3 font-bold"
                 color="blue-gray"
               >
-                Como trabaja el equipo de ConfiApp
+                NOSOTROS:
                 <p>Cada integrante de nuestro equipo apota un granito de arena para:</p>
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
               Brindamos seguridad y confianza en todo momento a los tutores y el menor a cargo.
                 <br />
+                
                 <br />
-                Hemos sido condecorados como uno d elos mejores aplicativos sobre seguridad juvenil e infantil.
+                Contamos con nuestro historial de Rutas, que nos permite acceder de manera rapida y precisa a los lugares que el menor trasito.
+                <br />
+                Asi es que logramos llenar de felicidad y tranquilidad a casa uno de las persnas que integran esta familia.
+
               </Typography>
               <Button variant="filled">read more</Button>
             </div>
@@ -79,7 +83,7 @@ export function Home() {
                 <CardHeader floated={false} className="relative h-56">
                   <img
                     alt="Card Image"
-                    src="/img/teamwork.png"
+                    src="/img/equipo.jpg"
                     className="h-full w-full"
                   />
                 </CardHeader>
@@ -90,10 +94,10 @@ export function Home() {
                     color="blue-gray"
                     className="mb-3 mt-2 font-bold"
                   >
-                    Nosotros:
+                    Porque elegirnos?
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                  Asi es que logramos llenarff de tranqulidad a cada uno de las personas que integran esta familia
+                 Unir a padres responsables con sus hijos mediante la confianza
                   </Typography>
                 </CardBody>
               </Card>
@@ -129,7 +133,7 @@ export function Home() {
       </section>
       <section className="relative bg-white py-24 px-4">
         <div className="container mx-auto">
-          <PageTitle section="Co-Working" heading="Build something">
+          <PageTitle section="Co-Working" heading=" Personas desaparecidas ">
             Put the potentially record low maximum sea ice extent tihs year down
             to low ice. According to the National Oceanic and Atmospheric
             Administration, Ted, Scambos.

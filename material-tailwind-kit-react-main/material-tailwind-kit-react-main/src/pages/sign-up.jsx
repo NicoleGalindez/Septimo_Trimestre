@@ -12,13 +12,13 @@ export function SignUp() {
     <section className="m-8 flex">
             <div className="w-2/5 h-full hidden lg:block">
         <img
-          src="/img/pattern.png"
+          src="/img/ado.avif"
           className="h-full w-full object-cover rounded-3xl"
         />
       </div>
       <div className="w-full lg:w-3/5 flex flex-col items-center justify-center">
         <div className="text-center">
-          <Typography variant="h2" className="font-bold mb-4">Join Us Today</Typography>
+          <Typography variant="h2" className="font-bold mb-4">Registrate</Typography>
           <Typography variant="paragraph" color="blue-gray" className="text-lg font-normal">Enter your email and password to register.</Typography>
         </div>
         <form className="mt-8 mb-2 mx-auto w-80 max-w-screen-lg lg:w-1/2">

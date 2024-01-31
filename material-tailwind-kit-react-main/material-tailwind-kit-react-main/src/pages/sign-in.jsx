@@ -12,13 +12,13 @@ export function SignIn() {
     <section className="m-8 flex gap-4">
       <div className="w-full lg:w-3/5 mt-24">
         <div className="text-center">
-          <Typography variant="h2" className="font-bold mb-4">Sign In</Typography>
-          <Typography variant="paragraph" color="blue-gray" className="text-lg font-normal">Enter your email and password to Sign In.</Typography>
+          <Typography variant="h2" className="font-bold mb-4">Iniciar Sesion</Typography>
+          <Typography variant="paragraph" color="blue-gray" className="text-lg font-normal">Ingresa tu Email electronico y tu contraseña para iniciar.</Typography>
         </div>
         <form className="mt-8 mb-2 mx-auto w-80 max-w-screen-lg lg:w-1/2">
           <div className="mb-1 flex flex-col gap-6">
             <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
-              Your email
+              Email
             </Typography>
             <Input
               size="lg"
@@ -29,7 +29,7 @@ export function SignIn() {
               }}
             />
             <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
-              Password
+              Contraseña
             </Typography>
             <Input
               type="password"
@@ -48,19 +48,19 @@ export function SignIn() {
                 color="gray"
                 className="flex items-center justify-start font-medium"
               >
-                I agree the&nbsp;
+               Aceptas &nbsp;
                 <a
                   href="#"
                   className="font-normal text-black transition-colors hover:text-gray-900 underline"
                 >
-                  Terms and Conditions
+                  Terminos y condiciones
                 </a>
               </Typography>
             }
             containerProps={{ className: "-ml-2.5" }}
           />
           <Button className="mt-6" fullWidth>
-            Sign In
+            Iniciar
           </Button>
 
           <div className="flex items-center justify-between gap-2 mt-6">
@@ -113,7 +113,7 @@ export function SignIn() {
       </div>
       <div className="w-2/5 h-full hidden lg:block">
         <img
-          src="/img/pattern.png"
+          src="/img/madre.jpg"
           className="h-full w-full object-cover rounded-3xl"
         />
       </div>

@@ -12,7 +12,7 @@ export const routes = [
     element: <Profile />,
   },
   {
-    name: "Iniciar Sesion",
+    name: "quitar",
     path: "/sign-in",
     element: <SignIn />,
   },
@@ -22,7 +22,7 @@ export const routes = [
     element: <SignUp />,
   },
   {
-    name: "Documentos",
+    name: "Nosotros",
     href: "https://www.material-tailwind.com/docs/react/installation",
     target: "_blank",
     element: "",

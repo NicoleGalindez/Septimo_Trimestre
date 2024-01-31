@@ -107,8 +107,9 @@ export function Navbar({ brandName, routes, action }) {
             target="_blank"
             className="mb-2 block"
           >
+
             <Button variant="text" size="sm" fullWidth>
-              pro version
+             Registrarme
             </Button>
           </a>
           {React.cloneElement(action, {
@@ -124,11 +125,12 @@ Navbar.defaultProps = {
   brandName: "ConfiApp",
   action: (
     <a
-      href="https://www.creative-tim.com/product/material-tailwind-kit-react"
+      href="/sign-in"
+      //href="https://www.creative-tim.com/product/material-tailwind-kit-react"
       target="_blank"
     >
       <Button variant="gradient" size="sm" fullWidth>
-        free download
+       iniciar sesion
       </Button>
     </a>
   ),
