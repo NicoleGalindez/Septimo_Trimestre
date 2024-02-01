@@ -75,7 +75,7 @@ export function Navbar({ brandName, routes, action }) {
             target="_blank"
           >
             <Button variant="text" size="sm" color="white" fullWidth>
-              pro version
+              Registrarme
             </Button>
           </a>
           {React.cloneElement(action, {
@@ -127,7 +127,7 @@ Navbar.defaultProps = {
     <a
       href="/sign-in"
       //href="https://www.creative-tim.com/product/material-tailwind-kit-react"
-      target="_blank"
+      
     >
       <Button variant="gradient" size="sm" fullWidth>
        iniciar sesion

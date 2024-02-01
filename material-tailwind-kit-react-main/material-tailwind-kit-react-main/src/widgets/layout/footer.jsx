@@ -79,45 +79,61 @@ export function Footer({ title, description, socials, menus, copyright }) {
 }
 
 Footer.defaultProps = {
-  title: "Material Tailwind",
+  title: "ConfiApp",
   description:
-    "Easy to use React components for Tailwind CSS and Material Design.",
+    "Encuentranos en redes sociales:",
   socials: [
     {
       color: "gray",
-      name: "twitter",
-      path: "https://www.twitter.com/creativetim",
-    },
-    {
-      color: "gray",
-      name: "youtube",
-      path: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+      name: "facebook",
+      path: "https://es-la.facebook.com/",
     },
     {
       color: "gray",
       name: "instagram",
-      path: "https://www.instagram.com/creativetimofficial/",
+      path: "https://www.instagram.com/?hl=en",
     },
+    // {
+
+
+    //   color: "gray",
+    //   name: "youtube",
+    //   path: "https://www.instagram.com/creativetimofficial/",
+    // },
     {
       color: "black",
-      name: "github",
-      path: "https://github.com/creativetimofficial/material-tailwind",
+      name: "store",
+      path: "https://www.appcracy.com/app/google-play-store/download/",
+      //link simulado
     },
   ],
   menus: [
     {
-      name: "useful links",
+      name: " Enlaces útiles ",
       items: [
-        { name: "About Us", path: "https://www.creative-tim.com/presentation" },
-        { name: "Blog", path: "https://www.creative-tim.com/blog" },
+        // { name: "About Us", path: "https://www.creative-tim.com/presentation" },
+       // { name: "Blog", path: "https://www.creative-tim.com/blog" },
+        // {
+        //   name: "Github",
+        //   path: "https://www.github.com/creativetimofficial/material-tailwind?ref=mtk",
+        // },
+
         {
-          name: "Github",
-          path: "https://www.github.com/creativetimofficial/material-tailwind?ref=mtk",
+          name: "Facebook",
+          path: "https://es-la.facebook.com/",
         },
         {
-          name: "Free Products",
-          path: "https://www.creative-tim.com/templates/free?ref=mtk",
+          name: "instagram",
+          path: "https://www.instagram.com/?hl=en",
         },
+        {
+          name: "Play Store",
+          path: "https://www.appcracy.com/app/google-play-store/download/",
+        },
+
+
+
+
       ],
     },
     {
@@ -144,7 +160,7 @@ Footer.defaultProps = {
   ],
   copyright: (
     <>
-      Copyright © {year} Material Tailwind by{" "}
+      Copyright © {year} ConfiApp by{" "}
       <a
         href="https://www.creative-tim.com?ref=mtk"
         target="_blank"

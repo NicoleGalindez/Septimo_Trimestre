@@ -133,10 +133,9 @@ export function Home() {
       </section>
       <section className="relative bg-white py-24 px-4">
         <div className="container mx-auto">
-          <PageTitle section="Co-Working" heading=" Personas desaparecidas ">
+          <PageTitle section="Confirmado" heading=" Personas desaparecidas ">
             Put the potentially record low maximum sea ice extent tihs year down
-            to low ice. According to the National Oceanic and Atmospheric
-            Administration, Ted, Scambos.
+            to low ice. 
           </PageTitle>
           <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (
