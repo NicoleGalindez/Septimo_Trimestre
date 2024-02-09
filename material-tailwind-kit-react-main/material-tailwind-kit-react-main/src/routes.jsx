@@ -12,16 +12,6 @@ export const routes = [
     element: <Profile />,
   },
   {
-    name: "quitar",
-    path: "/sign-in",
-    element: <SignIn />,
-  },
-  {
-    name: "Registrarme",
-    path: "/sign-up",
-    element: <SignUp />,
-  },
-  {
     name: "Nosotros",
     href: "#nosotros",
     element: "",

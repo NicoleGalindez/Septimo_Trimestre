@@ -8,6 +8,13 @@ import { Link } from "react-router-dom";
 
 
 export function SignIn() {
+
+const login = async (e) => {
+
+  localStorage.setItem("token", "1234");
+}
+
+
   return (
     <section className="m-8 flex gap-4">
       <div className="w-full lg:w-3/5 mt-24">
@@ -59,9 +66,12 @@ export function SignIn() {
             }
             containerProps={{ className: "-ml-2.5" }}
           />
-          <Button className="mt-6" fullWidth>
-            Iniciar
+          <Link to="/dashboard">
+          <Button onClick={login} className="mt-6" fullWidth >
+          Iniciar Sesion
           </Button>
+          </Link>
+
 
           <Typography variant="paragraph" className="text-center text-blue-gray-500 font-medium mt-4">
             No estas Registrado?
