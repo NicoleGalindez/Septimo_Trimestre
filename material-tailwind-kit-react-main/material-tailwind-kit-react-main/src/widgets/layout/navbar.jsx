@@ -71,8 +71,7 @@ export function Navbar({ brandName, routes, action }) {
         <div className="hidden lg:block">{navList}</div>
         <div className="hidden gap-2 lg:flex">
           <a
-            href="https://www.material-tailwind.com/blocks?ref=mtkr"
-            target="_blank"
+            href="sign-up"
           >
             <Button variant="text" size="sm" color="white" fullWidth>
               Registrarme
@@ -103,8 +102,7 @@ export function Navbar({ brandName, routes, action }) {
         <div className="container mx-auto">
           {navList}
           <a
-            href="https://www.material-tailwind.com/blocks/react?ref=mtkr"
-            target="_blank"
+            href="/sign-up"
             className="mb-2 block"
           >
 
@@ -126,7 +124,6 @@ Navbar.defaultProps = {
   action: (
     <a
       href="/sign-in"
-      //href="https://www.creative-tim.com/product/material-tailwind-kit-react"
       
     >
       <Button variant="gradient" size="sm" fullWidth>

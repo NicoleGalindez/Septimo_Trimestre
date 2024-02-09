@@ -53,7 +53,8 @@ export function Home() {
               />
             ))}
           </div>
-          <div className="mt-32 flex flex-wrap items-center">
+          <div className="mt-32 flex flex-wrap items-center" 
+                id="nosotros">
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
               <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-gray-900 p-2 text-center shadow-lg">
                 <FingerPrintIcon className="h-8 w-8 text-white " />
