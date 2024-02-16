@@ -11,7 +11,7 @@ import {
   Checkbox,
 } from "@material-tailwind/react";
 import { FingerPrintIcon, UsersIcon } from "@heroicons/react/24/solid";
-import { PageTitle, Footer } from "@/widgets/layout";
+import { PageTitle, Footer,DesaparecidosUpload } from "@/widgets/layout";
 import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
 
@@ -77,7 +77,7 @@ export function Home() {
                 Asi es que logramos llenar de felicidad y tranquilidad a casa uno de las persnas que integran esta familia.
 
               </Typography>
-              <Button variant="filled">read more</Button>
+              <Button variant="filled">Leer Mas</Button>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
               <Card className="shadow-lg border shadow-gray-500/10 rounded-lg">
@@ -134,9 +134,8 @@ export function Home() {
       </section>
       <section className="relative bg-white py-24 px-4">
         <div className="container mx-auto">
-          <PageTitle section="Confirmado" heading=" Personas desaparecidas ">
-            Put the potentially record low maximum sea ice extent tihs year down
-            to low ice. 
+          <PageTitle section="" heading=" Personas desaparecidas ">
+            Las personas acontinuacion se encuantran desaparecidas, si tienes informacion comunicate con nosotros.
           </PageTitle>
           <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (
@@ -160,37 +159,7 @@ export function Home() {
               </Card>
             ))}
           </div>
-          <PageTitle section="Contact Us" heading="Want to work with us?">
-            Complete this form and we will get back to you in 24 hours.
-          </PageTitle>
-          <form className="mx-auto w-full mt-12 lg:w-5/12">
-            <div className="mb-8 flex gap-8">
-              <Input variant="outlined" size="lg" label="Full Name" />
-              <Input variant="outlined" size="lg" label="Email Address" />
-            </div>
-            <Textarea variant="outlined" size="lg" label="Message" rows={8} />
-            <Checkbox
-              label={
-                <Typography
-                  variant="small"
-                  color="gray"
-                  className="flex items-center font-normal"
-                >
-                  I agree the
-                  <a
-                    href="#"
-                    className="font-medium transition-colors hover:text-gray-900"
-                  >
-                    &nbsp;Terms and Conditions
-                  </a>
-                </Typography>
-              }
-              containerProps={{ className: "-ml-2.5" }}
-            />
-            <Button variant="gradient" size="lg" className="mt-8" fullWidth>
-              Send Message
-            </Button>
-          </form>
+          <DesaparecidosUpload/>
         </div>
       </section>
       <div className="bg-white">

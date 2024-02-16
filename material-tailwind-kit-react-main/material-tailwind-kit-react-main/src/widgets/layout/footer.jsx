@@ -5,14 +5,14 @@ const year = new Date().getFullYear();
 
 export function Footer({ title, description, socials, menus, copyright }) {
   return (
-    <footer className="relative px-4 pt-8 pb-6">
+    <footer className="relative px-4 pt-8 pb-6 bg-black">
       <div className="container mx-auto">
         <div className="flex flex-wrap pt-6 text-center lg:text-left">
           <div className="w-full px-4 lg:w-6/12">
-            <Typography variant="h4" className="mb-4" color="blue-gray">
+            <Typography variant="h4" className="mb-4" color="white">
               {title}
             </Typography>
-            <Typography className="font-normal text-blue-gray-500 lg:w-2/5">
+            <Typography className="font-normal text-blue-gray-200 lg:w-2/5">
               {description}
             </Typography>
             <div className="mx-auto mt-6 mb-8 flex justify-center gap-2 md:mb-0 lg:justify-start">
@@ -84,24 +84,24 @@ Footer.defaultProps = {
     "Encuentranos en redes sociales:",
   socials: [
     {
-      color: "gray",
+      color: "white",
       name: "facebook",
       path: "https://es-la.facebook.com/",
     },
     {
-      color: "gray",
+      color: "white",
       name: "instagram",
       path: "https://www.instagram.com/?hl=en",
     },
     // {
 
 
-    //   color: "gray",
+    //   color: "white",
     //   name: "youtube",
     //   path: "https://www.instagram.com/creativetimofficial/",
     // },
     {
-      color: "black",
+      color: "white",
       name: "store",
       path: "https://www.appcracy.com/app/google-play-store/download/",
       //link simulado
@@ -164,7 +164,7 @@ Footer.defaultProps = {
       <a
         href="https://www.creative-tim.com?ref=mtk"
         target="_blank"
-        className="text-blue-gray-500 transition-colors hover:text-blue-500"
+        className="text-blue-gray-200 transition-colors hover:text-blue-500"
       >
         Creative Tim
       </a>
