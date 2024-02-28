@@ -77,7 +77,7 @@ export function Home() {
                 Asi es que logramos llenar de felicidad y tranquilidad a casa uno de las persnas que integran esta familia.
 
               </Typography>
-              <Button variant="filled">Leer Mas</Button>
+              {/* <Button variant="filled">Leer Mas</Button> */}
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
               <Card className="shadow-lg border shadow-gray-500/10 rounded-lg">
