@@ -7,6 +7,7 @@ import {
 import { Link } from "react-router-dom";
 
 
+
 export function SignUp() {
   return (
     <section className="m-8 flex">
@@ -22,6 +23,63 @@ export function SignUp() {
           <Typography variant="paragraph" color="blue-gray" className="text-lg font-normal">Ingresa tus datos para registrarte.</Typography>
         </div>
         <form className="mt-8 mb-2 mx-auto w-80 max-w-screen-lg lg:w-1/2">
+          
+
+          <div className="mb-1 flex flex-col gap-6">
+            <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
+              Nombres 
+            </Typography>
+            <Input
+              size="lg"
+              placeholder="Pedro Ramon"
+              className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
+              labelProps={{
+                className: "before:content-none after:content-none",
+              }}
+            />
+          </div>
+          <div className="mb-1 flex flex-col gap-6">
+            <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
+              Apellidos
+            </Typography>
+            <Input
+              size="lg"
+              placeholder="Perez Perez"
+              className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
+              labelProps={{
+                className: "before:content-none after:content-none",
+              }}
+            />
+          </div>
+
+          <div className="mb-1 flex flex-col gap-6">
+            <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
+              Tipo de identificación
+            </Typography>
+            <Input 
+              size="lg"
+              placeholder="Selecciona"
+              className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
+              labelProps={{
+                className: "before:content-none after:content-none",
+              }}
+            />
+          </div>
+
+ 
+          <div className="mb-1 flex flex-col gap-6">
+            <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
+              Número de identificación
+            </Typography>
+            <Input
+              size="lg"
+              placeholder="Debes ser mayor de edad"
+              className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
+              labelProps={{
+                className: "before:content-none after:content-none",
+              }}
+            />
+          </div>
           <div className="mb-1 flex flex-col gap-6">
             <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
               Tu correo electronico
@@ -35,6 +93,48 @@ export function SignUp() {
               }}
             />
           </div>
+          <div className="mb-1 flex flex-col gap-6">
+            <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
+              Número de telefono/celular
+            </Typography>
+            <Input
+              size="lg"
+              placeholder="300-456-7890"
+              className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
+              labelProps={{
+                className: "before:content-none after:content-none",
+              }}
+            />
+          </div>
+          <div className="mb-1 flex flex-col gap-6">
+            <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
+              Escribe tu contraseña
+            </Typography>
+            <Input
+              size="lg"
+              placeholder="********"
+              className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
+              labelProps={{
+                className: "before:content-none after:content-none",
+              }}
+            />
+          </div>
+
+          <div className="mb-1 flex flex-col gap-6">
+            <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
+             Confirma tu contraseña
+            </Typography>
+            <Input 
+              size="lg"
+              type="password"
+              placeholder="********"
+              className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
+              labelProps={{
+                className: "before:content-none after:content-none",
+              }}
+            />
+          </div>
+          
           <Checkbox
             label={
               <Typography
