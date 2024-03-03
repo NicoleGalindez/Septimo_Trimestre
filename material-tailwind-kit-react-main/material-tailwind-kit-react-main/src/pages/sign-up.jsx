@@ -4,11 +4,17 @@ import {
   Button,
   Typography,
 } from "@material-tailwind/react";
+import SelectOption from "@material-tailwind/react/components/Select/SelectOption";
 import { Link } from "react-router-dom";
 
 
 
 export function SignUp() {
+
+  const options = [
+    { value: "opcion1", label: "Cedula de Ciudadanía" },
+    { value: "opcion2", label: "Cedula deextrangería" },
+  ];
   return (
     <section className="m-8 flex">
             <div className="w-2/5 h-full hidden lg:block">
@@ -56,16 +62,20 @@ export function SignUp() {
             <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
               Tipo de identificación
             </Typography>
-            <Input 
-              size="lg"
-              placeholder="Selecciona"
-              className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
-              labelProps={{
-                className: "before:content-none after:content-none",
-              }}
-            />
-          </div>
+            <select 
+            size="lg"
+            placeholder="Selecciona"
+            className="border-t border-blue-gray-200 focus:border-gray-900"
+            labelProps={{
+              className: "before:content-none after:content-none",
+            }}
+           >
+           
+          </select>
 
+
+          </div>
+<br></br>
  
           <div className="mb-1 flex flex-col gap-6">
             <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
