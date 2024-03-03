@@ -57,20 +57,23 @@ export function SignUp() {
               }}
             />
           </div>
-
+<br />
           <div className="mb-1 flex flex-col gap-6">
             <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
               Tipo de identificación
             </Typography>
-            <select 
+            <select
             size="lg"
-            placeholder="Selecciona"
+            placeholder="Selecciona tu tipo de identificación"
             className="border-t border-blue-gray-200 focus:border-gray-900"
             labelProps={{
               className: "before:content-none after:content-none",
             }}
            >
-           
+            <option value="select" color="gray" >Selecciona tu tipo de identificación</option>
+            <option value="c.c">Cedula de Ciudadanía</option>
+            <option value="c.e">Cedula de extrangería</option>
+
           </select>
 
 
@@ -82,6 +85,7 @@ export function SignUp() {
               Número de identificación
             </Typography>
             <Input
+              type="number"
               size="lg"
               placeholder="Debes ser mayor de edad"
               className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
@@ -108,6 +112,7 @@ export function SignUp() {
               Número de telefono/celular
             </Typography>
             <Input
+              type="number"
               size="lg"
               placeholder="300-456-7890"
               className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
@@ -121,6 +126,7 @@ export function SignUp() {
               Escribe tu contraseña
             </Typography>
             <Input
+              type="password"
               size="lg"
               placeholder="********"
               className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
@@ -128,6 +134,7 @@ export function SignUp() {
                 className: "before:content-none after:content-none",
               }}
             />
+          
           </div>
 
           <div className="mb-1 flex flex-col gap-6">
