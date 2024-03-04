@@ -65,16 +65,13 @@ export function Home() {
                 color="blue-gray"
               >
                 NOSOTROS:
-                <p>Cada integrante de nuestro equipo apota un granito de arena para:</p>
+                <p></p>
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-              Brindamos seguridad y confianza en todo momento a los tutores y el menor a cargo.
+              Cada integrante de nuestro equipo aporta su talento y dedicación para desarrollar una aplicación que prioriza la seguridad y la tranquilidad de tu familia. Desde el diseño de funciones hasta la implementación de medidas de seguridad, trabajamos juntos para ofrecerte una experiencia fluida y confiable. Nuestro compromiso es asegurarnos de que cada aspecto de la aplicación esté cuidadosamente diseñado para brindarte la mejor experiencia posible.
                 <br />
                 
-                <br />
-                Contamos con nuestro historial de Rutas, que nos permite acceder de manera rapida y precisa a los lugares que el menor trasito.
-                <br />
-                Asi es que logramos llenar de felicidad y tranquilidad a casa uno de las persnas que integran esta familia.
+          
 
               </Typography>
               {/* <Button variant="filled">Leer Mas</Button> */}
@@ -108,7 +105,9 @@ export function Home() {
       </section>
       <section className="px-4 pt-20 pb-48">
         <div className="container mx-auto">
-          <PageTitle section="PADRES/TUTORES   REGISTRADOS" heading="..">
+          <PageTitle section="PADRES/TUTORES   REGISTRADOS" 
+          // heading=".."
+          >
           Administrador tienes la opcion de aceptar o rechazar padres/tutores registrados, aceptando que los padres/tutores ingresaron todos sus datos correctamente.
           </PageTitle>
           <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
