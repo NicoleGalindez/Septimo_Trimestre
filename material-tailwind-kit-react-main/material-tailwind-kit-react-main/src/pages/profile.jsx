@@ -50,7 +50,7 @@ export function Profile() {
                       className="font-normal text-blue-gray-500"
                     >
                       Angel David Dorado (12 años)
-                      <p>Manuel Sangiago Dorado(10 años)</p>
+                      <p>Kevin Sangiago Dorado(10 años)</p>
 
                     </Typography>
                   </div>
