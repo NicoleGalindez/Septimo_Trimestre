@@ -104,6 +104,9 @@ export function Home() {
           </div>
         </div>
       </section>
+
+
+      
       <section className="px-4 pt-20 pb-48">
         <div className="container mx-auto">
           <PageTitle section="PADRES/TUTORES   REGISTRADOS" 
@@ -132,6 +135,8 @@ export function Home() {
           </div>
         </div>
       </section>
+
+      
       <section className="relative bg-white py-24 px-4">
         <div className="container mx-auto">
           <PageTitle section="" heading=" Adolcentes desaparecidos ">
@@ -163,7 +168,7 @@ export function Home() {
               </Card>
             ))}
           </div>
-          <DesaparecidosUpload/>
+          
         </div>
       </section>
       <div className="bg-white">
