@@ -15,10 +15,12 @@ export function DesaparecidosUpload() {
           </PageTitle>
           <form className="mx-auto w-full mt-12 lg:w-5/12">
             <div className="mb-8 flex gap-8">
-              <Input variant="outlined" size="lg" label="Nombre completo" />
-              <Input variant="outlined" size="lg" label="Lugar  de residencia" />
+              <Input variant="outlined" size="lg" label="Nombre completo del menor" />
+              <Input variant="outlined" size="lg" label="Edad" />
             </div>
-            <Textarea variant="outlined" size="lg" label="Descripcion" rows={8} />
+            <Input  type="file" variant="outlined" size="lg" label="Foto del menor" />
+            <Textarea variant="outlined" size="lg" label="Descripcion y donde fué visto por última vez. (Tambien agrega un número de contacto)" rows={10} />
+          
 
             <Button variant="gradient" size="lg" className="mt-8" fullWidth>
               Enviar reporte

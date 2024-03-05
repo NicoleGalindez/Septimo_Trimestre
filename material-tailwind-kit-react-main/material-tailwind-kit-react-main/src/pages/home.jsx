@@ -134,8 +134,8 @@ export function Home() {
       </section>
       <section className="relative bg-white py-24 px-4">
         <div className="container mx-auto">
-          <PageTitle section="" heading=" Personas desaparecidas ">
-            Los adolecentes acontinuacion se encuantran desaparecidas, si tienes informacion comunicate con nosotros.
+          <PageTitle section="" heading=" Adolcentes desaparecidos ">
+            Los adolecentes acontinuacion se encuantran desaparecidas, si tienes informacion comunicate con nosotros o con el número de contacto en su respectiva descripción.
           </PageTitle>
 
           <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
@@ -153,7 +153,7 @@ export function Home() {
                   })}
                 </div> */}
 
-                <img src={img}  className="w-full h-auto mb-2  100dp" />
+                <img src={img}  className="w-full h-auto mb-2  " />
                 <Typography variant="h5" color="blue-gray" className="mb-2">
                   {title}
                 </Typography>
