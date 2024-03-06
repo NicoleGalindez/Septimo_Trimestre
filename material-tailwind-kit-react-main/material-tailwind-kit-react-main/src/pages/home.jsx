@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from 'react';
+import Modal from './modal' // Importa el componente Modal
+
 import {
   Card,
   CardBody,
@@ -16,6 +18,17 @@ import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
 
 export function Home() {
+  const [modalAbierto, setModalAbierto] = useState(false);
+  const [posicion, setPosition] = useState(null); // Agrega estado para la posición
+
+  const manejarClicBoton = (position) => {
+    setModalAbierto(true);
+    setPosition(position); // Guarda la posición en el estado del modal
+  };
+
+  const cerrarModal = () => {
+    setModalAbierto(false);
+  };
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
@@ -120,7 +133,19 @@ export function Home() {
                 key={name}
                 img={img}
                 name={name}
-                position={position}
+                position={
+                  <button
+                  onClick={() => manejarClicBoton(position)}
+                  style={{
+                    border: '2px',
+                    borderRadius: '6px',
+                    backgroundColor: 'lightblue',
+                    color: 'green',
+                  }}
+                >
+                  {position}
+                </button>
+                }
                 socials={
                   <div className="flex items-center gap-2">
                     {socials.map(({ color, name }) => (
@@ -134,6 +159,15 @@ export function Home() {
             ))}
           </div>
         </div>
+        {console.log("modalAbierto:", modalAbierto)}
+    {modalAbierto && (
+      <Modal cerrarModal={cerrarModal}>
+        {/* Contenido del modal aquí */}
+        <p>Hiciste clic en la posición: {position}</p>
+        {/* Otro contenido que quieras mostrar en el modal */}
+      </Modal>
+    )}
+  
       </section>
 
       

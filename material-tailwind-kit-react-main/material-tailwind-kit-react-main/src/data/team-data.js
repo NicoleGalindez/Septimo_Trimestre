@@ -21,7 +21,7 @@ export const teamData = [
   {
     img: "/img/team-2.jpg",
     name: "Romina Hadid",
-    position:  "Ver datos registrados",
+    position: "Ver datos registrados",
     socials: [
       {
         color: "light-blue",
