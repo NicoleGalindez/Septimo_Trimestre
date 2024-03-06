@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Modal = ({ children, cerrarModal }) => {
+
   return (
     <div className="modal">
       <div className="modal-contenido">

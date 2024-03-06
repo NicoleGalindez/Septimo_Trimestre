@@ -20,7 +20,7 @@ export const teamData = [
   },
   {
     img: "/img/team-2.jpg",
-    name: "Romina Hadid",
+    name: "Lili Collins",
     position: "Ver datos registrados",
     socials: [
       {

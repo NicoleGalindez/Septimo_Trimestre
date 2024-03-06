@@ -3,7 +3,7 @@ import { Typography, IconButton } from "@material-tailwind/react";
 
 const year = new Date().getFullYear();
 
-export function Footer({ title, description, socials, menus, copyright }) {
+export function Footer({ title, img,description, socials, menus, copyright }) {
   return (
     <footer className="relative px-4 pt-8 pb-6 bg-black">
       <div className="container mx-auto">
@@ -12,6 +12,11 @@ export function Footer({ title, description, socials, menus, copyright }) {
             <Typography variant="h4" className="mb-4" color="white">
               {title}
             </Typography>
+
+           
+
+            <img src={img}  className="w-25 h-10 mb-2  " />
+
             <Typography className="font-normal text-blue-gray-200 lg:w-2/5">
               {description}
             </Typography>
@@ -80,6 +85,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
 
 Footer.defaultProps = {
   title: "ConfiApp",
+  img: "/img/logoconfigblanco.png",
   description:
     "Encuentranos en redes sociales:",
   socials: [

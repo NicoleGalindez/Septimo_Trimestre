@@ -29,6 +29,12 @@ export function Home() {
   const cerrarModal = () => {
     setModalAbierto(false);
   };
+
+
+
+
+
+  
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
@@ -133,32 +139,43 @@ export function Home() {
                 key={name}
                 img={img}
                 name={name}
+              
                 position={
-                  <button
-                  onClick={() => manejarClicBoton(position)}
-                  style={{
-                    border: '2px',
-                    borderRadius: '6px',
-                    backgroundColor: 'lightblue',
-                    color: 'green',
-                  }}
-                >
-                  {position}
-                </button>
+                   <a href='/pages.modal.jsx' style={{textDecoration: 'underline'}}> 
+                    Ver datos
+                    </a>
+                    // forma de angela que tambien funciona !
+                            //   <button
+                            //   onClick={() => manejarClicBoton(position)}
+                            //   style={{
+                            //     border: '2px',
+                            //     borderRadius: '6px',
+                            //     backgroundColor: 'lightblue',
+                            //     color: 'green',
+                            //   }}
+                            // >
+                            //   {position}
+                            // </button>
                 }
-                socials={
-                  <div className="flex items-center gap-2">
-                    {socials.map(({ color, name }) => (
-                      <IconButton key={name} color={color} variant="text">
-                        <i className={`fa-brands text-xl fa-${name}`} />
-                      </IconButton>
-                    ))}
-                  </div>
-                }
+
+                  //muestra los iconos por si acaso
+                            // socials={
+                            //   <div className="flex items-center gap-2">
+                            //     {socials.map(({ color, name }) => (
+                            //       <IconButton key={name} color={color} variant="text">
+                            //         <i className={`fa-brands text-xl fa-${name}`} />
+                            //       </IconButton>
+                            //     ))}
+                            //   </div>
+                            // }
               />
             ))}
           </div>
         </div>
+
+        <div>
+
+          {/* //modal datos    */}
         {console.log("modalAbierto:", modalAbierto)}
     {modalAbierto && (
       <Modal cerrarModal={cerrarModal}>
@@ -167,14 +184,17 @@ export function Home() {
         {/* Otro contenido que quieras mostrar en el modal */}
       </Modal>
     )}
-  
+  </div>
+
       </section>
+
+
 
       
       <section className="relative bg-white py-24 px-4">
         <div className="container mx-auto">
           <PageTitle section="" heading=" Adolcentes desaparecidos ">
-            Los adolecentes acontinuacion se encuantran desaparecidas, si tienes informacion comunicate con nosotros o con el número de contacto en su respectiva descripción.
+            Los adolecentes publicados acontinuación se encuentran desaparecidas, si tienes información comunicate con nosotros ó con el número de contacto en su respectiva descripción.
           </PageTitle>
 
           <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">

@@ -38,6 +38,7 @@ export function Profile() {
 
               <div className="mt-10 mb-10 flex lg:flex-col justify-between items-center lg:justify-end lg:mb-0 lg:px-4 flex-wrap lg:-mt-5">
                 <Button className="bg-gray-900 w-fit lg:ml-auto">Agregar un menor</Button>
+
                 <div className="flex justify-start py-4 pt-8 lg:pt-4">
                   <div className="mr-4 p-3 text-center">
                     <Typography
@@ -47,14 +48,30 @@ export function Profile() {
                     >
                       Menor (es) a Cargo:
                     </Typography>
+
+                    <a href="#" style={{textDecoration: 'underline'}}>
+                        <Typography
+                          variant="small"
+                          className="font-normal text-blue-gray-500"
+                        >
+                          Angel David Dorado (12 años)
+                        </Typography>
+                    </a>
+                    
+
+
+
+                    <a href="#" style={{textDecoration: 'underline'}}>
                     <Typography
                       variant="small"
                       className="font-normal text-blue-gray-500"
                     >
-                      Angel David Dorado (12 años)
-                      <p>Kevin Sangiago Dorado(10 años)</p>
+                      Kevin Sangiago Dorado(10 años)
 
                     </Typography>
+                    </a>
+                    
+
                   </div>
                   <div className="mr-4 p-3 text-center">
                     {/* <Typography
