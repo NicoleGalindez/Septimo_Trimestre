@@ -8,7 +8,7 @@ import { Footer,DesaparecidosUpload } from "@/widgets/layout";
 import { contactData } from "@/data";
 
 
-export function Profile() {
+export function Profile(){
   return (
     <>
       <section className="relative block h-[50vh]">
@@ -146,9 +146,20 @@ export function Profile() {
 
         </div>
 
-        
+        <div className="mb-10 py-6">
+              <div className="flex w-full flex-col items-start lg:w-1/2">
+                <Typography className="mb-6 font-normal text-blue-gray-500">
+                  An artist of considerable range, Jenna the name taken by
+                  Melbourne-raised, Brooklyn-based Nick Murphy writes,
+                  performs and records all of his own music, giving it a
+                  warm, intimate feel with a solid groove structure. An
+                  artist of considerable range.
+                </Typography>
+                <Button variant="text">Show more</Button>
+              </div>
 
         <DesaparecidosUpload/>  
+        </div>
       </section>
 
      
@@ -158,7 +169,7 @@ export function Profile() {
       </div>
 
     </> 
-  );
-}
+  )
+};
 
 export default Profile;
